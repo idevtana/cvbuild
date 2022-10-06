@@ -1,0 +1,18 @@
+.home{
+    @include verticalCenter;
+    flex-direction: column;
+    height: 100%;
+    *{
+        color: #fff;
+    }
+    h1{
+        font-size: 4em;
+    }
+    .type-animation{
+        span{
+            &:last-child{
+                border-bottom: 4px solid $color-1;
+            }
+        }
+    }
+}

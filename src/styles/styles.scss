@@ -1,0 +1,8 @@
+@import './color';
+@import './settings';
+@import './components/navigation';
+@import './pages/home';
+
+body{
+    background-color: $bg-1;
+}

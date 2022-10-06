@@ -1,0 +1,42 @@
+$maxWidthContainer: 100%;
+
+$fullHeight: 100vh;
+$paddingAuto: 20px; 
+
+#root{
+    display: flex;
+    flex-direction: row;
+    max-width: $maxWidthContainer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: $color-2;
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    background-image: url('../medias/web-design-bg.jpg');
+}
+
+@mixin contentCenter {
+    display: flex;
+    align-items: center; 
+}
+@mixin verticalCenter {
+    @include contentCenter;
+    justify-content: center; 
+}
+@mixin roundedBox{
+    border-radius: 50%!important;
+    box-sizing: border-box;
+}

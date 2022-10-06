@@ -1,0 +1,64 @@
+#aside{
+    @include contentCenter;
+    width: 300px;
+    flex-direction: column;
+    background-color: $bg-2;
+    height: $fullHeight;
+    padding: $paddingAuto;
+    .profil{
+        @include contentCenter;
+        flex-direction: column;
+        margin-top: 30px;
+        .photo{
+            @include verticalCenter;
+            @include roundedBox;
+            overflow: hidden;
+            max-width: 125px;
+            max-height: 125px;
+            border: 3px solid $color-1;
+            box-shadow: 0px 7px 25px #ccc;
+            img{
+                max-height: 150px;
+                width: auto;
+            }
+        }
+        .social-network{
+            margin-top: 20px;
+            li{
+                @include roundedBox;
+                background-color: $color-1;
+                width: 30px;
+                text-align: center;
+                padding: 5px;
+                margin: 3px;
+                svg{
+                    color: $bg-1;
+                }
+            }
+        }
+    }
+    .nav-menu{
+        ul{
+            flex-direction: column;
+            transform: translateY(100%);
+            li{
+                margin: 10px;
+                a{
+                    &.navactive{
+                        color: $color-1;
+                    }
+                    svg{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        position: absolute;
+        bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
