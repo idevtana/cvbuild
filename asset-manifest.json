@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cvbuild/static/css/main.4199d526.css",
+    "main.js": "/cvbuild/static/js/main.050dc96d.js",
+    "static/js/787.20416dff.chunk.js": "/cvbuild/static/js/787.20416dff.chunk.js",
+    "static/media/web-design-bg.jpg": "/cvbuild/static/media/web-design-bg.b43ffcb17b0503a51cf8.jpg",
+    "static/media/profil.jpg": "/cvbuild/static/media/profil.66fe1884cb4c43dd53d4.jpg",
+    "index.html": "/cvbuild/index.html",
+    "main.4199d526.css.map": "/cvbuild/static/css/main.4199d526.css.map",
+    "main.050dc96d.js.map": "/cvbuild/static/js/main.050dc96d.js.map",
+    "787.20416dff.chunk.js.map": "/cvbuild/static/js/787.20416dff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4199d526.css",
+    "static/js/main.050dc96d.js"
+  ]
+}
